@@ -22,7 +22,7 @@ Finally, we created a confusion matrix to evaulate the successfulness of the mod
 We then redid these steps, but using imbalanced learning to resample data and make the data more balanced. 
 
 
-## Results
+## Results:
 
 * Logistics Regression Model - using original data:
   	* Balanced Accuracy Score: 0.952047
@@ -45,7 +45,7 @@ We then redid these steps, but using imbalanced learning to resample data and ma
 		* Recall: 0.99
 
 
-## Summary
+## Summary:
 
 Comparing the two confusion matrices it appears that the model's performance has improved in terms of recall for the Unhealthy Loan (High Risk) class after using the RandomOverSampler.
 
