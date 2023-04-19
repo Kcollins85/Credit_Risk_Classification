@@ -34,14 +34,6 @@ We then redid these steps, but using imbalanced learning to resample data and ma
 		* Precision: 0.85
 		* Recall: 0.91
 
-                            precision    recall  f1-score   support
-
-   Healthy Loan (Low Risk)       1.00      0.99      1.00     18765
-Unhealthy Loan (High Risk)       0.85      0.91      0.88       619
-
-                  accuracy                           0.99     19384
-
-
 * Logistics Regression Model - using resampled data:
 	* Balanced Accuracy Score: 0.99367
 	* Precision and Recall Scores:
@@ -51,13 +43,6 @@ Unhealthy Loan (High Risk)       0.85      0.91      0.88       619
 		* Unhealthy Loan (High Risk):
 		* Precision: 0.84
 		* Recall: 0.99
-
-                              precision    recall  f1-score   support
-
-   Healthy Loan (Low Risk)       1.00      0.99      1.00     18765
-Unhealthy Loan (High Risk)       0.84      0.99      0.91       619
-
-                  accuracy                           0.99     19384
 
 
 ## Summary
